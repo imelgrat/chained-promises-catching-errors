@@ -1,4 +1,4 @@
-# Chained promises
+# Chained promises - Catching errors
 
 The `.then()` and `.catch()` methods always return a promise. So you can chain multiple `.then()` calls together. This makes it very simple to create step-by-step actions, where the value returned from each step is used/transformed by the next one.
 
