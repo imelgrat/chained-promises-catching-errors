@@ -7,3 +7,5 @@ In this example, 4 tasks are chained to fetch a random image from https://picsum
 If, however, the picture size is 6KB or larger, the image will be rejected (breaking the promise chain), generating an error that will be caught by the `.catch()` method at the end of the chain. 
 
 The `.catch()` method will also handle any other errors that might happen in any of the links of the chain.
+
+Read more at: https://imelgrat.me/javascript/javascript-promises-improvement-developers
